@@ -1,0 +1,44 @@
+{
+  "package_version": 2,
+  "name": "cc-extension-cos-uploader",
+  "version": "1.1.0",
+  "description": "Upload build output to Tencent COS after Cocos Creator build completes.",
+  "author": "local",
+  "main": "./main.js",
+  "panels": {
+    "default": {
+      "title": "COS 上传",
+      "type": "dockable",
+      "main": "./panel.js",
+      "size": {
+        "min-width": 420,
+        "min-height": 400,
+        "width": 520,
+        "height": 520
+      }
+    }
+  },
+  "contributions": {
+    "builder": "./builder.js",
+    "messages": {
+      "start-upload-flow": {
+        "methods": ["startUploadFlow"]
+      },
+      "get-upload-state": {
+        "methods": ["getUploadState"]
+      },
+      "confirm-upload": {
+        "methods": ["confirmUpload"]
+      },
+      "cancel-upload": {
+        "methods": ["cancelUpload"]
+      },
+      "close-panel": {
+        "methods": ["closePanelMsg"]
+      }
+    }
+  },
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "^2.15.4"
+  }
+}

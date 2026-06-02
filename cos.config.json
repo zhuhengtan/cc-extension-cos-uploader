@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "secretId": "待填写",
+  "secretKey": "待填写",
+  "bucket": "待填写",
+  "region": "待填写",
+  "signatureExpires": 900,
+  "platformPrefixMap": {
+    "web-desktop": "web-desktop",
+    "web-mobile": "web-mobile"
+  }
+}

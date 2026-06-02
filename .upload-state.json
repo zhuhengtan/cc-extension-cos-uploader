@@ -1,0 +1,13 @@
+{
+  "phase": "idle",
+  "config": null,
+  "platform": "",
+  "outputDir": "",
+  "progress": {
+    "done": 0,
+    "total": 0,
+    "currentFile": ""
+  },
+  "result": null,
+  "cancelRequested": false
+}
