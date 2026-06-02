@@ -1,4 +1,4 @@
-# build-cos-uploader
+# cc-extension-cos-uploader
 
 在 `onAfterBuild` 阶段，将 Cocos Creator 构建完成后的产物上传到腾讯云 COS。
 

@@ -15,10 +15,10 @@ const defaultCfg = getCosConfig();
 
 module.exports = {
   load() {
-    console.log('[build-cos-uploader] builder loaded');
+    console.log('[cc-extension-cos-uploader] builder loaded');
   },
   unload() {
-    console.log('[build-cos-uploader] builder unloaded');
+    console.log('[cc-extension-cos-uploader] builder unloaded');
   },
   configs: {
     '*': {

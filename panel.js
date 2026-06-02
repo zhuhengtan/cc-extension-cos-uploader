@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const PACKAGE_NAME = 'build-cos-uploader';
+const PACKAGE_NAME = 'cc-extension-cos-uploader';
 const CONFIG_PATH = path.join(__dirname, 'cos.config.json');
 const STATE_PATH = path.join(__dirname, '.upload-state.json');
 const uploadMethods = require('./main').methods;

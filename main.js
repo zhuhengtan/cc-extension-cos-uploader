@@ -13,7 +13,7 @@ function loadCos() {
   }
 }
 
-const PACKAGE_NAME = 'build-cos-uploader';
+const PACKAGE_NAME = 'cc-extension-cos-uploader';
 const CANCEL_CHECK_INTERVAL = 250;
 const FLOW_POLL_INTERVAL = 200;
 const ABORT_ERROR_CODE = 'BUILD_COS_UPLOADER_ABORTED';
