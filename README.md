@@ -2,6 +2,10 @@
 
 在 `onAfterBuild` 阶段，将 Cocos Creator 构建完成后的产物上传到腾讯云 COS。
 
+## 社区帖
+点点赞啊朋友们😏
+[是否苦恼你做的demo没法快速分享给小伙伴们体验？ ](https://forum.cocos.org/t/topic/176036)
+
 ## 配置
 
 编辑 `cos.config.json`：
